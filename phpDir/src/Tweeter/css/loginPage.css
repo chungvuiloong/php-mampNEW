@@ -1,0 +1,69 @@
+html {
+    background: black;
+}
+
+.loginContainer {
+    justify-content: center;
+    border: 1px solid white;
+    margin: 0px auto;
+    width: 60%;
+    padding: 10px;
+}
+
+
+
+.googleLogo{
+    width: 1.5em;
+    margin-right: 0.3em;
+  }
+  
+  .appleLogo{
+  
+    margin-right: 0.3em;
+  }
+  
+ 
+
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 18.5rem;
+    height: 2.4rem;
+    border-radius: 10vw;
+    font-size: 1rem;
+    text-decoration: none;
+    font-weight: 700;
+  }
+
+.btn-signupAnother {
+
+    margin: auto;
+    background: #ffffff;
+    color: rgb(0, 0, 0);
+    transition: all .2s ease;
+    margin-bottom: 20px;
+    font-weight: 600;
+  }
+
+  .or {
+    width: 18.5rem;
+    text-align: center; 
+    border-bottom: 1px solid rgb(113, 118, 123); 
+    line-height: 0.1em;
+    /* margin: 10px 0 20px;  */
+    color: white;
+    margin: auto;
+  }
+  
+  .or span {
+    background:rgb(1, 1, 1); 
+    padding:0 10px; 
+  }
+
+  .inputEmail, .inputPassword {
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }

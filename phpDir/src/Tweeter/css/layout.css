@@ -1,0 +1,24 @@
+
+body {
+  background-color: black !important;
+}
+
+.sidebar { grid-area: sidebar; }
+form { grid-area: form; }
+.blogContainer { grid-area: container; }
+.rightSidebar { grid-area: rightSidebar;}
+
+.grid-container {
+    display: grid;
+    grid-template-areas:
+    'sidebar form      rightSidebar'
+    'sidebar container rightSidebar'
+    'sidebar container rightSidebar'
+    '. container .'
+    '. container .'
+    '. container .'
+ 
+    ;
+
+  }
+

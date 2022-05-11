@@ -1,0 +1,39 @@
+.sidebar {
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    border-right: 2px solid grey;
+    height:100vh;
+    width: 15rem;
+    font-size: 1.5em;
+}
+
+.sidebar a {
+    margin-left: 30px;
+    margin-top: 25px;
+
+    color: white !important;
+    text-decoration: none;
+}
+
+.tweetButton {
+    height: 30px;
+    width: 170px;
+    color: white;
+
+    
+    text-align: center;
+    vertical-align: middle;
+    line-height: 30px; 
+
+    padding: 0.5em;
+    background-color: #1DA1F2;
+    border-radius: 25px;
+    margin: 25px auto;
+}
+
+.userProfileContainer {
+    position: absolute;
+    color: white !important;
+    bottom: 10px;
+}

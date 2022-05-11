@@ -1,0 +1,85 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="webform.css" media="all" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="main.js"></script>
+  </head>
+
+  <body>
+    <div class="container">
+      <form action="webform.php" method="POST" class="form" data-netlify="true">
+        <div class="field">
+          <label for="name" class="form-label">Your Name</label>
+          <input
+            type="text"
+            class="form-control"
+            id="name"
+            name="name"
+            placeholder="MrJay"
+            tabindex="1"
+            required
+          />
+        </div>
+        <div class="field">
+          <label for="email" class="form-label">Your Email</label>
+          <input
+            type="email"
+            class="form-control"
+            id="email"
+            name="email"
+            placeholder="mrjay@mail.com"
+            tabindex="2"
+            required
+          />
+        </div>
+        <div class="field">
+          <label for="subject" class="form-label">Subject</label>
+          <input
+            type="text"
+            class="form-control"
+            id="subject"
+            name="subject"
+            placeholder="Hello There!"
+            tabindex="3"
+            required
+          />
+        </div>
+        <div class="field">
+          <label for="message" class="form-label">Message</label>
+          <textarea
+            class="form-control"
+            rows="5"
+            cols="50"
+            id="message"
+            name="message"
+            placeholder="Enter Message..."
+            tabindex="4"
+          ></textarea>
+        </div>
+
+        <div class="field">
+          <label for="files" class="form-label">Attachments</label>
+          <input
+          type="file"
+            class="form-control"
+            rows="5"
+            cols="50"
+            id="files"
+            name="files"
+            placeholder="Upload files"
+          ></input>
+        </div>
+        <div class="field">
+          <div data-netlify-recaptcha="true"></div>
+        </div>
+
+        <div>
+          <button type="submit" name="submit" class="btn">Send me love!</button>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,17 @@
+.rightSidebar .search {
+    height: 30px;
+    width: 250px;
+    border-radius: 25px;
+    background-color: grey;
+    margin: 0px auto;
+}
+
+.rightSidebar {
+    display: flex;
+    flex-direction: column;
+    border-left: 2px solid grey;
+    height:100vh;
+    
+    /* width: 10vw; */
+    font-size: 1.5em;
+}
